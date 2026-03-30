@@ -6,7 +6,7 @@ database:
 
 # Workload Parameters
 workload:
-  nr_warmup_op: 0
+  nr_warmup_op: 1000000
   nr_op: 5000000
   nr_init_thread: 1
   nr_thread: 1
@@ -30,5 +30,5 @@ measurement:
 # Redis Parameters
 redis:
   addr: "127.0.0.1"
-  port: 6379
+  port: 6380
   batch_size: 1

@@ -1,0 +1,13 @@
+/hiredis-test
+/examples/hiredis-example*
+/*.o
+/*.so
+/*.dylib
+/*.a
+/*.pc
+*.dSYM
+tags
+/scripts/hiredis/*
+/scripts/redis/*
+My-YCSB/script/redis/
+My-YCSB/script/hiredis/
