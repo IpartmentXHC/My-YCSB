@@ -12,9 +12,9 @@ workload:
   nr_thread: 1
   next_op_interval_ns: 0
   operation_proportion:
-    read: 1
-    update: 0
-    insert: 0
+    read: 0.9
+    update: 0.05
+    insert: 0.05
     scan: 0
     read_modify_write: 0
   request_distribution: "uniform"

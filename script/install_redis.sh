@@ -36,6 +36,8 @@ sed -i 's/save 900 1//g' redis.conf
 sed -i 's/save 300 10//g' redis.conf
 sed -i 's/save 60 10000//g' redis.conf
 sed -i -e '$a save ""' redis.conf
+sed -i 's/^appendonly no/appendonly yes/' redis.conf
+sed -i 's/^appendfsync.*/appendfsync everysec/' redis.conf
 
 # install hiredis
 cd $WORK_DIR
